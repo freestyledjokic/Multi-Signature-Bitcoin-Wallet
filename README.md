@@ -38,7 +38,6 @@ multi-sig-wallet/
 │
 │── README.md                # Documentation
 │── .gitignore               # Ignore unnecessary files
-│── LICENSE                  # Open-source license (MIT recommended)
 ```
 
 ## 🚀 Installation & Setup
