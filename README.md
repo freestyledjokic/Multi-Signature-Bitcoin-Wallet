@@ -33,10 +33,16 @@ multi-sig-wallet/
 │   │   ├── components/      # Reusable UI components (Wallet, TransactionList, etc.)
 │   │   ├── utils/           # Blockchain interaction logic
 │   │   ├── pages/           # Next.js page structure
-│   │── .env.local           # Environment variables (ignored in Git)
 │   │── package.json         # Dependencies
 │   │── tsconfig.json        # TypeScript config
 │
 │── README.md                # Documentation
 │── .gitignore               # Ignore unnecessary files
 │── LICENSE                  # Open-source license (MIT recommended)
+
+
+---
+
+### 🚀 **Installation & Setup**
+```md
+## 🚀 Installation & Setup
