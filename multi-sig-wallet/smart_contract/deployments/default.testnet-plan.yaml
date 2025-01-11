@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: multi-sig-wallet
+            expected-sender: ST126KB63EGE5P99FTYEWH0Z195CP1YXMEZ5BDNNA
+            cost: 44750
+            path: "contracts\\multi-sig-wallet.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.1"
